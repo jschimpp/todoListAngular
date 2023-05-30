@@ -1,0 +1,8 @@
+<div>
+    <form (submit)="submit($event)">
+        <p>Task: 
+            <input type="text" [(ngModel)]="todoName" [ngModelOptions]="{standalone: true}" />
+        </p>
+        <button>Submit</button>
+    </form>
+</div>
